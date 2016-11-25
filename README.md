@@ -11,14 +11,14 @@ limit of 3120 watts.
 The hash corpus they got was generated from a number of dictionaries
 of languages and compromised passwords, along with some rules applied
 to permute words. It contained about 1 million md5 hashes, and about 2
-million blowfish hashes, of various rounds of blowfish.  They had been
+million bcrypt hashes, of various rounds of bcrypt.  They had been
 told that the competition data set would be at least partially
 dictionary based and representative of user passwords, but not what
 dictionaries they would be based on.
 
 There were 3400944 total hashes in the competition data set. Across
 all the teams 645873 distinct password hashes were cracked. 616330 of
-those were MD5, 29543 were Blowfish.
+those were MD5, 29543 were bcrypt.
 
 The most successful team at this application got over 500,000
 passwords, mostly md5, using nvidia p100 GPU's. Their technique was to
